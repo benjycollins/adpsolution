@@ -1,0 +1,13 @@
+﻿{
+  "name": "ONPREM_SQLSERVER_AXA_LinkedService",
+  "properties": {
+    "description": "",
+    "type": "OnPremisesSqlServer",
+    "typeProperties": {
+      "connectionString": "Data Source=WTFSQL50;Initial Catalog=AXAH_SDP_STG01;Integrated Security=True;",
+      "gatewayName": "SDP_IR_Gateway",
+      "userName": "AXA-UK-TEST\\ben collins",
+      "password": "**********"
+    }
+  }
+}
