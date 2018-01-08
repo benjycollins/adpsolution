@@ -1,0 +1,139 @@
+﻿{
+  "name": "SQLServer_EDIData_BillProg",
+  "properties": {
+    "structure": [
+      {
+        "name": "LoadId",
+        "type": "Int32"
+      },
+      {
+        "name": "ClaimKey",
+        "type": "String"
+      },
+      {
+        "name": "HospGroup",
+        "type": "String"
+      },
+      {
+        "name": "NickName",
+        "type": "String"
+      },
+      {
+        "name": "InvNum",
+        "type": "String"
+      },
+      {
+        "name": "InvDate",
+        "type": "Datetime"
+      },
+      {
+        "name": "PatName",
+        "type": "String"
+      },
+      {
+        "name": "Value",
+        "type": "Double"
+      },
+      {
+        "name": "SubRef",
+        "type": "String"
+      },
+      {
+        "name": "BillType",
+        "type": "String"
+      },
+      {
+        "name": "EpiSet",
+        "type": "String"
+      },
+      {
+        "name": "HospitalID",
+        "type": "String"
+      },
+      {
+        "name": "Payee",
+        "type": "String"
+      },
+      {
+        "name": "PayeeType",
+        "type": "String"
+      },
+      {
+        "name": "Status",
+        "type": "String"
+      },
+      {
+        "name": "LastChange",
+        "type": "Datetime"
+      },
+      {
+        "name": "PendCode",
+        "type": "String"
+      },
+      {
+        "name": "Updated",
+        "type": "String"
+      },
+      {
+        "name": "StatOrder",
+        "type": "String"
+      },
+      {
+        "name": "HospCode",
+        "type": "String"
+      },
+      {
+        "name": "DatePaid",
+        "type": "Datetime"
+      },
+      {
+        "name": "LoadDate",
+        "type": "Datetime"
+      },
+      {
+        "name": "VedaSeqNum",
+        "type": "String"
+      },
+      {
+        "name": "ProvRef",
+        "type": "String"
+      },
+      {
+        "name": "VedaFilename",
+        "type": "String"
+      },
+      {
+        "name": "ArchiveFilename",
+        "type": "String"
+      },
+      {
+        "name": "Id",
+        "type": "String"
+      },
+      {
+        "name": "SourceClaimRef",
+        "type": "String"
+      },
+      {
+        "name": "BusinessHashKey",
+        "type": "Byte[]"
+      },
+      {
+        "name": "DataHashKey",
+        "type": "Byte[]"
+      }
+    ],
+    "published": false,
+    "type": "SqlServerTable",
+    "linkedServiceName": "ADSL_AXA_ADP_LinkedService",
+    "typeProperties": {
+      "tableName": "EDIData.BillProg"
+    },
+    "availability": {
+      "frequency": "Hour",
+      "interval": 1
+    },
+    "external": true,
+    "policy": {}
+  }
+}

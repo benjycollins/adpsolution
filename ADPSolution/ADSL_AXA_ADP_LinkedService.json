@@ -1,0 +1,15 @@
+﻿{
+    "$schema": "http://datafactories.schema.management.azure.com/schemas/2015-09-01/Microsoft.DataFactory.LinkedService.json",
+    "name": "ADSL_AXA_ADP_LinkedService",
+  "properties": {
+    "type": "AzureDataLakeStore",
+    "typeProperties": {
+      "dataLakeStoreUri": "adl://adpstore.azuredatalakestore.net/",
+      "servicePrincipalId": "fd0e2c1f-1d22-4dab-ad27-1511012e7c04",
+      "servicePrincipalKey": "**********",
+      "tenant": "axapppuk.onmicrosoft.com",
+      "subscriptionId": "67eb2e15-e3d2-4cb2-8fe0-3755ddd6417c",
+      "resourceGroupName": "PPPBigDataPOC"
+    }
+  }
+}

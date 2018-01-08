@@ -27,7 +27,9 @@
     <Folder Include="Dependencies\" />
   </ItemGroup>
   <ItemGroup>
+    <Script Include="ADSL_AXA_ADP_LinkedService.json" />
     <Script Include="Config1.json" />
+    <Script Include="SQLServer_EDIData_BillProg.json" />
     <Script Include="ONPREM_SQLSERVER_AXA_LinkedService.json" />
   </ItemGroup>
   <Import Project="$(AppData)\Microsoft\DataFactory Tools for Visual Studio\MsBuild\1.0\DataFactory.targets" />
