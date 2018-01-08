@@ -1,0 +1,367 @@
+﻿{
+  "name": "SQLServer_EDIData_CLMHDR",
+  "properties": {
+    "structure": [
+      {
+        "name": "LoadId",
+        "type": "Int32"
+      },
+      {
+        "name": "HDCLAIMKEY",
+        "type": "String"
+      },
+      {
+        "name": "HDCLMTYPE",
+        "type": "String"
+      },
+      {
+        "name": "HDFILENAME",
+        "type": "String"
+      },
+      {
+        "name": "HDPATLAST",
+        "type": "String"
+      },
+      {
+        "name": "HDPATFORE",
+        "type": "String"
+      },
+      {
+        "name": "HDPATINIT",
+        "type": "String"
+      },
+      {
+        "name": "HDSUBREF",
+        "type": "String"
+      },
+      {
+        "name": "HDPATDOB",
+        "type": "Datetime"
+      },
+      {
+        "name": "HDPATSEX",
+        "type": "String"
+      },
+      {
+        "name": "HDADMDATE",
+        "type": "Datetime"
+      },
+      {
+        "name": "HDADMTIME",
+        "type": "String"
+      },
+      {
+        "name": "HDDISDATE",
+        "type": "Datetime"
+      },
+      {
+        "name": "HDDISTIME",
+        "type": "String"
+      },
+      {
+        "name": "HDDISREA",
+        "type": "String"
+      },
+      {
+        "name": "HDEPIAUTH",
+        "type": "String"
+      },
+      {
+        "name": "HDEPINIGHT",
+        "type": "Int16"
+      },
+      {
+        "name": "HDEPISET",
+        "type": "String"
+      },
+      {
+        "name": "HDGPADD1",
+        "type": "String"
+      },
+      {
+        "name": "HDGPADD2",
+        "type": "String"
+      },
+      {
+        "name": "HDGPADD3",
+        "type": "String"
+      },
+      {
+        "name": "HDGPADD4",
+        "type": "String"
+      },
+      {
+        "name": "HDGPADD5",
+        "type": "String"
+      },
+      {
+        "name": "HDGPPRCODE",
+        "type": "String"
+      },
+      {
+        "name": "HDGPNUM",
+        "type": "String"
+      },
+      {
+        "name": "HDGPNAME",
+        "type": "String"
+      },
+      {
+        "name": "HDGPPCODE",
+        "type": "String"
+      },
+      {
+        "name": "HDGROUPNO",
+        "type": "String"
+      },
+      {
+        "name": "HDINSSCH",
+        "type": "String"
+      },
+      {
+        "name": "HDHOSNUM",
+        "type": "String"
+      },
+      {
+        "name": "HDHOSNUMTY",
+        "type": "String"
+      },
+      {
+        "name": "HDPRSPENUM",
+        "type": "String"
+      },
+      {
+        "name": "HDCONTSPEC",
+        "type": "String"
+      },
+      {
+        "name": "HDCONTSPCD",
+        "type": "String"
+      },
+      {
+        "name": "HDPROCADMI",
+        "type": "String"
+      },
+      {
+        "name": "CFCONTSPEC",
+        "type": "String"
+      },
+      {
+        "name": "CFDOUINS",
+        "type": "String"
+      },
+      {
+        "name": "CFGPDATE",
+        "type": "Datetime"
+      },
+      {
+        "name": "CFGROUPSEC",
+        "type": "String"
+      },
+      {
+        "name": "CFGRPCODE",
+        "type": "String"
+      },
+      {
+        "name": "CFMEDREP",
+        "type": "String"
+      },
+      {
+        "name": "CFSYMDATE",
+        "type": "Datetime"
+      },
+      {
+        "name": "CFTHDPTY",
+        "type": "String"
+      },
+      {
+        "name": "CFTP1",
+        "type": "String"
+      },
+      {
+        "name": "CFTP2",
+        "type": "String"
+      },
+      {
+        "name": "CFTP3",
+        "type": "String"
+      },
+      {
+        "name": "CFVALDATE",
+        "type": "Datetime"
+      },
+      {
+        "name": "INCOPAMT",
+        "type": "Double"
+      },
+      {
+        "name": "INDISTOT",
+        "type": "Double"
+      },
+      {
+        "name": "INEXEAMT",
+        "type": "Double"
+      },
+      {
+        "name": "INFROMDATE",
+        "type": "Datetime"
+      },
+      {
+        "name": "INHOLDREQ",
+        "type": "String"
+      },
+      {
+        "name": "INFINCLASS",
+        "type": "String"
+      },
+      {
+        "name": "INHOSPBAND",
+        "type": "String"
+      },
+      {
+        "name": "ININVDATE",
+        "type": "Datetime"
+      },
+      {
+        "name": "ININVNUM",
+        "type": "String"
+      },
+      {
+        "name": "INPACKAGE",
+        "type": "String"
+      },
+      {
+        "name": "INPAYCODE",
+        "type": "String"
+      },
+      {
+        "name": "INPAYPROV",
+        "type": "String"
+      },
+      {
+        "name": "ININSPAYEE",
+        "type": "String"
+      },
+      {
+        "name": "INPAYPRVTY",
+        "type": "String"
+      },
+      {
+        "name": "INPROVREF",
+        "type": "String"
+      },
+      {
+        "name": "INTODATE",
+        "type": "Datetime"
+      },
+      {
+        "name": "INTOTAL1",
+        "type": "Double"
+      },
+      {
+        "name": "INTOTAL2",
+        "type": "Double"
+      },
+      {
+        "name": "INVATNUM",
+        "type": "String"
+      },
+      {
+        "name": "INVATTOT",
+        "type": "Double"
+      },
+      {
+        "name": "HDPATADD1",
+        "type": "String"
+      },
+      {
+        "name": "HDPATADD2",
+        "type": "String"
+      },
+      {
+        "name": "HDPATADD3",
+        "type": "String"
+      },
+      {
+        "name": "HDPATADD4",
+        "type": "String"
+      },
+      {
+        "name": "HDPATPCODE",
+        "type": "String"
+      },
+      {
+        "name": "HDCLMSSTAT",
+        "type": "String"
+      },
+      {
+        "name": "HDLOADDATE",
+        "type": "Datetime"
+      },
+      {
+        "name": "VedaSeqNum",
+        "type": "String"
+      },
+      {
+        "name": "TreatingHospital",
+        "type": "String"
+      },
+      {
+        "name": "VedaFilename",
+        "type": "String"
+      },
+      {
+        "name": "Id",
+        "type": "Guid"
+      },
+      {
+        "name": "IsResponded",
+        "type": "Boolean"
+      },
+      {
+        "name": "IsLocked",
+        "type": "Boolean"
+      },
+      {
+        "name": "IsLocked",
+        "type": "Boolean"
+      },
+      {
+        "name": "DateOfHidden",
+        "type": "Datetime"
+      },
+      {
+        "name": "HiddenBy",
+        "type": "String"
+      },
+      {
+        "name": "PatientMiddleName",
+        "type": "String"
+      },
+      {
+        "name": "TargetSystem",
+        "type": "String"
+      },
+      {
+        "name": "BusinessHashKey",
+        "type": "Byte[]"
+      },
+      {
+        "name": "DataHashKey",
+        "type": "Byte[]"
+      }
+    ],
+    "published": false,
+    "type": "SqlServerTable",
+    "linkedServiceName": "ONPREM_SQLSERVER_AXA_LinkedService",
+    "typeProperties": {
+      "tableName": "EDIData.CLMHDR"
+    },
+    "availability": {
+      "frequency": "Hour",
+      "interval": 1
+    },
+    "external": true,
+    "policy": {}
+  }
+}
