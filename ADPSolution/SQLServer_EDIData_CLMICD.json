@@ -1,0 +1,51 @@
+﻿{
+    "name": "SQLServer_EDIData_CLMICD",
+  "properties": {
+    "structure": [
+      {
+        "name": "LoadId",
+        "type": "Int32"
+      },
+      {
+        "name": "HDCLAIMKEY",
+        "type": "String"
+      },
+      {
+        "name": "DummyKey",
+        "type": "String"
+      },
+      {
+        "name": "CIICDCODE",
+        "type": "String"
+      },
+      {
+        "name": "CIICDCLASS",
+        "type": "String"
+      },
+      {
+        "name": "Id",
+        "type": "String"
+      },
+      {
+        "name": "BusinessHashKey",
+        "type": "Byte[]"
+      },
+      {
+        "name": "DataHashKey",
+        "type": "Byte[]"
+      }
+    ],
+    "published": false,
+    "type": "SqlServerTable",
+    "linkedServiceName": "ONPREM_SQLSERVER_AXA_LinkedService",
+    "typeProperties": {
+      "tableName": "EDIData.CLMICD"
+    },
+    "availability": {
+      "frequency": "Hour",
+      "interval": 1
+    },
+    "external": true,
+    "policy": {}
+  }
+}

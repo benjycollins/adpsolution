@@ -1,0 +1,127 @@
+﻿{
+  "name": "SQLServer_EDIData_CLMLINS",
+  "properties": {
+    "structure": [
+      {
+        "name": "LoadId",
+        "type": "Int32"
+      },
+      {
+        "name": "HDCLAIMKEY",
+        "type": "String"
+      },
+      {
+        "name": "CLLINENO",
+        "type": "String"
+      },
+      {
+        "name": "CLASAGRADE",
+        "type": "String"
+      },
+      {
+        "name": "CLFDOS",
+        "type": "Datetime"
+      },
+      {
+        "name": "CLLDOS",
+        "type": "Datetime"
+      },
+      {
+        "name": "CLTOS",
+        "type": "String"
+      },
+      {
+        "name": "CMPROVCODE",
+        "type": "String"
+      },
+      {
+        "name": "ISDSTCODE",
+        "type": "String"
+      },
+      {
+        "name": "CLSICHARGE",
+        "type": "Double"
+      },
+      {
+        "name": "CLSIDIS",
+        "type": "Double"
+      },
+      {
+        "name": "CLSISERPRO",
+        "type": "String"
+      },
+      {
+        "name": "CLSIINSPRO",
+        "type": "String"
+      },
+      {
+        "name": "CLSERPRVTY",
+        "type": "String"
+      },
+      {
+        "name": "CLSISERSET",
+        "type": "String"
+      },
+      {
+        "name": "CLSITOTAL",
+        "type": "Double"
+      },
+      {
+        "name": "CLSIUOS",
+        "type": "Int16"
+      },
+      {
+        "name": "CLSIVAT",
+        "type": "Double"
+      },
+      {
+        "name": "CLSIVATIND",
+        "type": "String"
+      },
+      {
+        "name": "CLSIVATRAT",
+        "type": "Single"
+      },
+      {
+        "name": "GROUPCODE",
+        "type": "String"
+      },
+      {
+        "name": "GROUPPER",
+        "type": "String"
+      },
+      {
+        "name": "CLDESC",
+        "type": "String"
+      },
+      {
+        "name": "Id",
+        "type": "String"
+      },
+      {
+        "name": "ServiceCode",
+        "type": "String"
+      },
+      {
+        "name": "BusinessHashKey",
+        "type": "Byte[]"
+      },
+      {
+        "name": "DataHashKey",
+        "type": "Byte[]"
+      }
+    ],
+    "published": false,
+    "type": "SqlServerTable",
+    "linkedServiceName": "ONPREM_SQLSERVER_AXA_LinkedService",
+    "typeProperties": {
+      "tableName": "EDIData.CLMLINS"
+    },
+    "availability": {
+      "frequency": "Hour",
+      "interval": 1
+    },
+    "external": true,
+    "policy": {}
+  }
+}
