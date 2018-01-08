@@ -29,6 +29,7 @@
   <ItemGroup>
     <Script Include="ADSL_AXA_ADP_LinkedService.json" />
     <Script Include="Config1.json" />
+    <Script Include="SQLServer_EDIData_CLMPROC.json" />
     <Script Include="SQLServer_EDIData_CLMLINS.json" />
     <Script Include="SQLServer_EDIData_CLMICD.json" />
     <Script Include="SQLServer_EDIData_CLMHDR.json" />
